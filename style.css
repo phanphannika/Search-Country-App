@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Alegreya", serif;
+  
+}
+body{
+  background-color: rgb(68, 68, 238);
+}
+.container {
+  width:100%;
+  max-width:540px;
+  margin:auto;
+  background-color:white;
+  margin-top:100px;
+  border-radius:5px;
+  box-shadow:0 0 5px rgb(145, 144, 144);
+  padding:20px;
+}
+.search-wrapper {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+.search-wrapper input {
+  outline:none;
+  border:none;
+  background-color:transparent;
+  font-size:16px;
+  border:2px solid blue;
+  padding:8px 200px 10px 8px;
+  border-radius: 5px;
+
+}
+.search-wrapper button {
+  outline:none;
+  border:none;
+  background:blue;
+  padding:12px 30px;
+  color:white;
+  font-weight:bold;
+  font-size:14px;
+  border-radius: 5px;
+  
+}
+#search_result {
+  display: none;
+  margin-top:20px;
+  line-height:2rem;
+  font-size:18px;
+}
+#search_result img {
+  width:200px;
+  
+}
